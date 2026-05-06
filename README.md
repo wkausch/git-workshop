@@ -199,6 +199,7 @@ Yup, everything back to normal.
 
 So now let's add some high quality music text in that file (or whatever you like).
 Check again `git status` and `git diff`
+
 ![](attachments/gitidff2.png)
 
 Yes, these are the changes we want to keep! So let's do that. It is a two-step process.
@@ -272,7 +273,7 @@ You should see your last commit, and the ones that I have done to this repositor
 ---
 # quick recap
 
-Before we go to different topic, let's recap the commands we learned so far:
+Before we go to different topics, let's recap the commands we learned so far:
 
 - clone
 - status
@@ -299,11 +300,13 @@ In our workshop, we're currently on the **main** branch. There are some commits 
 
 Say we now want to work on a new feature of our code. If you work by yourself, you don't need to create a new branch for this, but it can be helpful. Maybe you want to try out two different methods. Branching allows you to have to different states of your code simultaneously.
 This is especially important when collaborating with other people. Everyone can have their own branch, and thus does not mess with the code of the others.
-We create the branch like this:
+
+We now create a branch by running this command:
 
 ```
 git checkout -b adele_is_also_cool
 ```
+
 
 ---
 # creating a new file and committing it
